@@ -55,7 +55,6 @@ class MovimentacaoDao{
 
 	public function alterar(Movimentacao $movimentacao){
 		
-		var_dump($movimentacao);
 		$sql = "UPDATE movimentacao SET tipo = ?, data_inicio = ?, data_termino = ? WHERE id = ?";
 
 		//Chama a conexão
